@@ -10,7 +10,7 @@ authors:
 aliases: ["/blog/2025/10/22/unifying-http-proxy-infrastructure-in-gardener"]
 ---
 
-Gardener is simplifying its networking infrastructure by moving towards a single, unified entrypoint for all HTTP CONNECT proxy traffic. This change, introduced as part of [GEP-30](https://github.com/gardener/gardener/blob/master/docs/proposals/30-apiserver-proxy.md), aims to streamline configuration and reduce complexity.
+Gardener is simplifying its networking infrastructure by moving towards a single, unified entrypoint for all HTTP CONNECT proxy traffic. This change, introduced as part of [GEP-30](https://github.com/gardener/enhancements/blob/main/geps/0030-apiserver-proxy/README.md), aims to streamline configuration and reduce complexity.
 
 ### The `UseUnifiedHTTPProxyPort` Feature Gate
 
@@ -37,4 +37,4 @@ This tracking mechanism will allow operators to monitor the adoption of the new 
 
 *   [Recording of the talk](https://youtu.be/GArG1wh2j1o?t=1358)
 *   [GitHub Pull Request #13003](https://github.com/gardener/gardener/pull/13003)
-*   [GEP-30: Unifying the HTTP-Proxy Infrastructure](https://github.com/gardener/gardener/blob/master/docs/proposals/30-apiserver-proxy.md)
+*   [GEP-30: Unifying the HTTP-Proxy Infrastructure](https://github.com/gardener/enhancements/blob/main/geps/0030-apiserver-proxy/README.md)
